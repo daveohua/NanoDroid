@@ -52,7 +52,7 @@ nanodroid_mapsv1=1
 #	20 = install Aurora Store (alongside Aurora Services addon)
 #	21 = install Aurora Store (alongside Aurora Services addon) and Fake Store
 #	30 = install Google Play (patched with microG (in-)app-purchase support) and Aurora Store (alongside Aurora Services addon)
-nanodroid_play=21
+nanodroid_play=01
 
 # nanodroid_fdroid:	whether to install F-Droid
 # supported packages:	Full, F-Droid
@@ -61,7 +61,7 @@ nanodroid_play=21
 #	1 = install official F-Droid client (alongside priviledged extension)
 #	2 = install unofficial Aurora F-Droid client (alongside Aurora Services addon)
 #	3 = install both official and Aurora F-Droid clients (alongside their addons)
-nanodroid_fdroid=1
+nanodroid_fdroid=2
 
 # nanodroid_apps:	whether to install appliations
 # supported packages:	Full
@@ -69,7 +69,7 @@ nanodroid_fdroid=1
 #	0 = don't install applications
 #	1 = install applications
 # see:	https://gitlab.com/Nanolx/NanoDroid/-/blob/master/doc/Applications.md
-nanodroid_apps=1
+nanodroid_apps=0
 
 # nanodroid_overlay:	whether to utilize NanoDroid-Overlay
 # supported packages:	Full, microG
